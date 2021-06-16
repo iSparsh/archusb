@@ -39,7 +39,7 @@ Check connection with
 ### Step 2: Updating databases and setting mirrors
 Setting up mirror with reflector
 ```
-# reflector -c India -a 6 --sort rate --save /etc/pacman.d/mirrorlist
+# reflector -c "YourCountry" -a 6 --sort rate --save /etc/pacman.d/mirrorlist
 ```
 
 Refreshing servers
@@ -91,7 +91,7 @@ Setting up **encrypted** root.
 ```
 then follow the prompts that follow.  
 
-Opening the partition.. (NOTE: you can replace `cryptroot` with any name you want. eg: encdisk, donkey, etc.)
+Opening the partition.. (NOTE: you can replace `cryptroot` with any mapper name you want. eg: encdisk, donkey, etc.)
 ```
 # cryptsetup open /dev/sdaX3 cryptroot
 ```
