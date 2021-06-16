@@ -187,14 +187,14 @@ Installing essential packages
 ```
 
 Optional packages I install:
-**For bluetooth:** `bluez bluez-utils`
-**XDG Utilities:** `xdg-utils xdg-user-firs`
-**For battery (on laptop):** `acpi acpid tlp`
-**For printing:** `cups` and for HP Printers, I also recommend `hplip`
-**For security: (firewalls, etc)** `firewalld apparmor`
-**Other network utilities:** `wpa_supplicant dnsutils dnsmasq`
-**For linux audio:** `alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack`
-**For ssh:** `openssh`
+**For bluetooth:** `bluez bluez-utils`  
+**XDG Utilities:** `xdg-utils xdg-user-dirs`  
+**For battery (on laptop):** `acpi acpid tlp`  
+**For printing:** `cups` and for HP Printers, I also recommend `hplip`  
+**For security: (firewalls, etc)** `firewalld apparmor`  
+**Other network utilities:** `wpa_supplicant dnsutils dnsmasq`  
+**For linux audio:** `alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack`  
+**For ssh:** `openssh`  
 
 Working on the mkinitcpio file.
 ```
