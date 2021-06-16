@@ -8,19 +8,32 @@
 HUGE NOTE: This is a guide for myself, with a little added explaination so you can install and do whatver you want while reading this. 
 
 ### Step 1: Connecting to Wifi
-```# iwctl```
+```
+# iwctl
+```
 Showing devices
-```[iwd]# device list```
+```
+[iwd]# device list
+```
 Scanning the device
-```[iwd]# station <device_name> scan```
+```
+[iwd]# station <device_name> scan
+```
 Fetching network list
-```[iwd]# station <device_name> get-networks```
+```
+[iwd]# station <device_name> get-networks
+```
 Connecting to WiFi
-```[iwd]# station <device_name> connect <wifi_name>```
+```
+[iwd]# station <device_name> connect <wifi_name>
+```
 After successful connection, exit.
-```[iwd]# exit```
+```
+[iwd]# exit
+```
 Check connection with
-```# ping archlinux.org```
+```# ping archlinux.org
+```
 
 ### Step 2: Updating databases and setting mirrors
 Setting up mirror with reflector
