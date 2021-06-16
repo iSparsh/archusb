@@ -1,0 +1,61 @@
+feh
+lxappearance
+qt5ct
+xscreensaver
+fprintd
+gtklp *
+maim
+pcmanfm
+bat
+pfetch
+ripgrep
+fd
+emacs
+exa
+libreoffice
+gimp
+doom emacs *
+htop
+vlc
+spotify
+mpv
+youtube-dl
+(check out ff2mpv)
+librewolf-bin
+bitwarden
+paru (lmao)
+dunst
+starship *
+clipman
+obs
+pavucontrol
+intellij idea *
+pycharm *
+eclipse *
+iwd
+iwgtk
+python-pip
+mailspring *
+spicetify-cli
+trash-cli
+xarchiver
+light
+blueman
+zathura
+zsh-autosuggestions *
+zsh-syntax highlighting *
+emote *
+ttf-devanagarifonts *
+noto-fonts-emoji *
+texlive-core *
+texlive-fontsextra*
+ttf-ms-fonts *
+otf-ipafont *
+ttf-iosevka *
+ttf-mononoki
+ttf-jetbrains-mono
+ttf-fira-code
+noto-fonts
+cowsay
+figlet
+cava
